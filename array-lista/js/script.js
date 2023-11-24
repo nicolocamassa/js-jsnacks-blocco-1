@@ -2,4 +2,11 @@ let fruits = ['banana', 'mela', 'pera', 'ciliegia', 'arancia', 'mandarino', 'coc
 let table = 'pesca';
 let flag = false;
 
+for(let i = 0; i < fruits.length; i++){
+    if(fruits[i] == 'cocomero'){
+        flag = true
+    }
+}
+
+
 
